@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Quicksand:wght@400;500;600;700&family=Sacramento&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    padding: 1em;
+    display: inline-block;
+}
+
+html{
+    font-size: 16px;
+}
+
+li a:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
