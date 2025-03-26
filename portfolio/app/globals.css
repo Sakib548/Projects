@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  font-family: Outfit;
+}
+
+@theme {
+  --light-hover: #fcf4ff;
+  --dark-hover: #2a004a;
+  --dark-theme: #11001f;
+  --font-outfit: "Outfit", sans-serif;
+  --font-ovo: "Ovo", serif;
+}
